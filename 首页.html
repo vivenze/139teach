@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>319教育网</title>
+    <link rel="stylesheet" href="css/homepage.css"/>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script>
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                var num = 1300;
+                if (scroll - num > 0) {
+                    $('.third').find('.pdown').slideDown("slow");
+                    $('.third').find('.spandown').slideDown("slow");
+                    $('.third').find('.pright').animate({
+                        width: '280px',
+                    }, "slow", "linear");
+                    $('.third').find('.spanright').animate({
+                        width: '200px',
+                    }, "slow", "linear");
+                }
+            })
+    </script>
+    <style>
+        .swiper-container {
+            width: 100%;
+            height: 648px;
+        }
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+        .swiper-pagination-bullet-active{
+            background-color: #33cc99;
+        }
+    </style>
+</head>
+<body>
+<div class="head">
+    <img src="imgs/319logo.png" alt="319logo" class="logo"/>
+    <ul>
+        <li class="mainli"><a href="">首页</a></li>
+        <li><a href="">找家教</a></li>
+        <li><a href="">入驻家教</a></li>
+        <li><a href="">活动广场</a></li>
+        <li><a href="">个人主页</a></li>
+    </ul>
+    <a href=""><img src="imgs/people.png" class="peoplelogo" alt=""/></a>
+</div>
+<div class="main">
+    <div class="first">
+        <a href="">了解更多</a>
+    </div>
+    <div class="second">
+        <div class="secondhead">
+            <img src="imgs/goodteacher.png" alt=""/>
+        </div>
+        <div class="secondmain">
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="teacher1">
+                            <img src="imgs/touxiang.jpg" alt=""/>
+                            <h2>谭宏泽</h2>
+                            <h3>大学生家教</h3>
+                            <h3>主科：<span>数学</span></h3>
+                            <h3>费用：<span>50</span>块/h</h3>
+                            <p>个人简介：<span>各位同学家长你们好!我在高中的时候曾拿过数学全国竞赛第一名</span></p>
+                            <button>联系该家教</button>
+                        </div>
+                        <div class="teacher1">
+                            <img src="imgs/touxiang.jpg" alt=""/>
+                            <h2>谭宏泽</h2>
+                            <h3>大学生家教</h3>
+                            <h3>主科：<span>数学</span></h3>
+                            <h3>费用：<span>50</span>块/h</h3>
+                            <p>个人简介：<span>各位同学家长你们好!我在高中的时候曾拿过数学全国竞赛第一名</span></p>
+                            <button>联系该家教</button>
+                        </div>
+                        <div class="teacher1">
+                            <img src="imgs/touxiang.jpg" alt=""/>
+                            <h2>谭宏泽</h2>
+                            <h3>大学生家教</h3>
+                            <h3>主科：<span>数学</span></h3>
+                            <h3>费用：<span>50</span>块/h</h3>
+                            <p>个人简介：<span>各位同学家长你们好!我在高中的时候曾拿过数学全国竞赛第一名</span></p>
+                            <button>联系该家教</button>
+                        </div>
+                        <div class="teacher1">
+                            <img src="imgs/touxiang.jpg" alt=""/>
+                            <h2>谭宏泽</h2>
+                            <h3>大学生家教</h3>
+                            <h3>主科：<span>数学</span></h3>
+                            <h3>费用：<span>50</span>块/h</h3>
+                            <p>个人简介：<span>各位同学家长你们好!我在高中的时候曾拿过数学全国竞赛第一名</span></p>
+                            <button>联系该家教</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="teacher1">
+                            <img src="imgs/touxiang.jpg" alt=""/>
+                            <h2>谭宏泽</h2>
+                            <h3>大学生家教</h3>
+                            <h3>主科：<span>数学</span></h3>
+                            <h3>费用：<span>50</span>块/h</h3>
+                            <p>个人简介：<span>各位同学家长你们好!我在高中的时候曾拿过数学全国竞赛第一名</span></p>
+                            <button>联系该家教</button>
+                        </div>
+                        <div class="teacher1">
+                            <img src="imgs/touxiang.jpg" alt=""/>
+                            <h2>谭宏泽</h2>
+                            <h3>大学生家教</h3>
+                            <h3>主科：<span>数学</span></h3>
+                            <h3>费用：<span>50</span>块/h</h3>
+                            <p>个人简介：<span>各位同学家长你们好!我在高中的时候曾拿过数学全国竞赛第一名</span></p>
+                            <button>联系该家教</button>
+                        </div>
+                        <div class="teacher1">
+                            <img src="imgs/touxiang.jpg" alt=""/>
+                            <h2>谭宏泽</h2>
+                            <h3>大学生家教</h3>
+                            <h3>主科：<span>数学</span></h3>
+                            <h3>费用：<span>50</span>块/h</h3>
+                            <p>个人简介：<span>各位同学家长你们好!我在高中的时候曾拿过数学全国竞赛第一名</span></p>
+                            <button>联系该家教</button>
+                        </div>
+                        <div class="teacher1">
+                            <img src="imgs/touxiang.jpg" alt=""/>
+                            <h2>谭宏泽</h2>
+                            <h3>大学生家教</h3>
+                            <h3>主科：<span>数学</span></h3>
+                            <h3>费用：<span>50</span>块/h</h3>
+                            <p>个人简介：<span>各位同学家长你们好!我在高中的时候曾拿过数学全国竞赛第一名</span></p>
+                            <button>联系该家教</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="teacher1">
+                            <img src="imgs/touxiang.jpg" alt=""/>
+                            <h2>谭宏泽</h2>
+                            <h3>大学生家教</h3>
+                            <h3>主科：<span>数学</span></h3>
+                            <h3>费用：<span>50</span>块/h</h3>
+                            <p>个人简介：<span>各位同学家长你们好!我在高中的时候曾拿过数学全国竞赛第一名</span></p>
+                            <button>联系该家教</button>
+                        </div>
+                        <div class="teacher1">
+                            <img src="imgs/touxiang.jpg" alt=""/>
+                            <h2>谭宏泽</h2>
+                            <h3>大学生家教</h3>
+                            <h3>主科：<span>数学</span></h3>
+                            <h3>费用：<span>50</span>块/h</h3>
+                            <p>个人简介：<span>各位同学家长你们好!我在高中的时候曾拿过数学全国竞赛第一名</span></p>
+                            <button>联系该家教</button>
+                        </div>
+                        <div class="teacher1">
+                            <img src="imgs/touxiang.jpg" alt=""/>
+                            <h2>谭宏泽</h2>
+                            <h3>大学生家教</h3>
+                            <h3>主科：<span>数学</span></h3>
+                            <h3>费用：<span>50</span>块/h</h3>
+                            <p>个人简介：<span>各位同学家长你们好!我在高中的时候曾拿过数学全国竞赛第一名</span></p>
+                            <button>联系该家教</button>
+                        </div>
+                        <div class="teacher1">
+                            <img src="imgs/touxiang.jpg" alt=""/>
+                            <h2>谭宏泽</h2>
+                            <h3>大学生家教</h3>
+                            <h3>主科：<span>数学</span></h3>
+                            <h3>费用：<span>50</span>块/h</h3>
+                            <p>个人简介：<span>各位同学家长你们好!我在高中的时候曾拿过数学全国竞赛第一名</span></p>
+                            <button>联系该家教</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+    <div class="third">
+        <div class="thirdimg">
+            <img src="imgs/homepageegreen.png" alt=""/>
+            <img src="imgs/homepagered.png" alt=""/>
+        </div>
+        <p class="pdown">大学生家教</p>
+        <span class="spandown">年龄差距小，共同语言沟通效率高</span>
+        <p class="pright"><span>|</span>&nbsp家教竞拍</p>
+        <span class="spanright">家长学生竞争优秀家教</span>
+        <p class="pright"><span>|</span>&nbsp寻找附近家教</p>
+        <span class="spanright">地图搜索附近大学生家</span>
+        <span class="spanright">教就地寻找家教</span>
+        <p class="pright"><span>|</span>&nbsp家教一对一，</p>
+        <p class="pright">一对多</p>
+        <span class="spanright">近距离的辅导，</span>
+        <span class="spanright">更容易补习不足之处</span>
+        <p class="pdown">费用合理家教</p>
+        <span class="spandown">外面的家教费昂贵</span>
+        <span class="spandown">大学生家教更符合普通家庭支出</span>
+    </div>
+    <div class="forth">
+        <h3>请家教过程</h3>
+        <div class="pleadetail">
+            <div class="plea">
+                <img src="imgs/forth1.png" alt=""/>
+                <div class="forthh4">
+                    <h4>搜索合适家教</h4>
+                </div>
+            </div>
+            <img class="forth5" src="imgs/forth5.png" alt=""/>
+            <div class="plea">
+                <img src="imgs/forth2.png" alt=""/>
+                <div class="forthh4">
+                    <h4>审核通过</h4>
+                </div>
+            </div>
+            <img class="forth5"  src="imgs/forth5.png" alt=""/>
+            <div class="plea">
+                <img src="imgs/forth3.png" alt=""/>
+                <div class="forthh4">
+                    <h4>家教与学员联系</h4>
+                </div>
+            </div>
+            <img class="forth5"  src="imgs/forth5.png" alt=""/>
+            <div class="plea">
+                <img src="imgs/forth4.png" alt=""/>
+                <div class="forthh4">
+                    <h4>第三方支付</h4>
+                </div>
+            </div>
+            <div class="forthp">
+                <p> 地图搜索、竞拍价格、搜索家教、关键字搜索</p>
+                <div class="forthdiv"></div>
+                <p>后台审核家教以及学员信息</p>
+                <div class="forthdiv" ></div>
+                <p>双方协调家教时间及家教内容</p>
+                <div class="forthdiv"></div>
+                <p>通过支付宝微信第三方支付</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <p style="padding-top: 25px">
+        <a href="">联系我们</a>
+        |
+        <a href="">在线客服</a>
+        |
+        <a href="">意见反馈</a>
+        |
+        <a href="">加入我们</a>
+        |
+        <a href="">关于我们</a>
+    </p>
+    <p>Copyright © 2006-2017</p>
+</div>
+<!-- Swiper JS -->
+<script src="js/swiper.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true
+    });
+</script>
+</body>
+</html>

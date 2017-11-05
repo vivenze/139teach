@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Microsoft YaHei";
+}
+
+body{
+    background-color: #e9fde9;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 90px;
+    width: 171px;
+    height: 60px;
+}
+.main{
+    width: 1055px;
+    height: 556px;
+    background: url("../imgs/loginbg.png");
+    margin: 20px auto;
+}
+#tab{
+    width: 100%;
+    height: 60px;
+}
+#tab ul{
+    display: block;
+    height: 60px;
+    width: 180px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+#tab span{
+    font-size: 35px;
+    color: rgb( 167, 167, 167 );
+    float: left;
+    margin: 0 6px;
+}
+li{
+    list-style: none;
+    float: left;
+    cursor: pointer;
+    font-size: 28px;
+    font-family: "Microsoft YaHei";
+    color: rgb( 167, 167, 167 );
+    height: 60px;
+    line-height: 45px;
+}
+#tabcon .bdiv{
+    clear: both;
+}
+#tabcon .bdiv{
+    display: none;
+}
+#tabcon .fdiv{
+    display: block;
+}
+.fli{
+    font-size: 45px;
+    font-family: "Microsoft YaHei";
+    color: #33cc99;
+}
+.dlform {
+    display: block;
+    width: 285px;
+    margin: 0 auto;
+}
+.dlform span{
+    padding: 15px 7px;
+    display: block;
+    width: 285px;
+}
+.remenber{
+    float: right;
+    width: 90px;
+}
+.remenber p{
+    position: absolute;
+    text-align: center;
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+#checkbox1{
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+    width: 18px;
+    height: 18px;
+}
+#label1{
+    border-radius: 2px;
+    width: 14px;
+    height:14px;
+    display: block;
+    background-color: white;
+    border: 1px solid  #33cc99;
+    position: absolute;
+    margin-top:3px;
+}
+.dlform span a{
+    text-decoration: none;
+    color: black;
+}
+.dlform span a:hover,.dlform span a:active{
+    color: #33cc99;
+}
+.fwrite1{
+    margin: 35px 0 70px 0;
+}
+.fwrite{
+    border: none;
+    border-bottom: 2px solid #33cc99;
+    outline:0;
+    font-size: 20px;
+    padding: 3px 7px;
+    width: 270px;
+}
+.logindl{
+    width: 250px;
+    height: 41px;
+    border: none;
+    background-color: #33cc99;
+    font-size: 28px;
+    color: white;
+    margin: 40px  auto;
+    display: block;
+}
+
+/*зЂВс*/
+.checkone{
+    width: 350px;
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 100px;
+    font-size: 22px;
+}
+.checkone input{
+    width: 24px;
+    height: 24px;
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+}
+.checkone tr{
+    display: block;
+    height: 29px;
+}
+.labeltd{
+    width: 50px;
+    padding-bottom: 20px;
+}
+.labeltd label{
+    display: block;
+    border-radius: 24px;
+    width: 21px;
+    height:21px;
+    background:none;
+    border: 3px solid  #33cc99;
+    position: absolute;
+}
+.check-detail{
+    margin: 0 auto;
+    width: 96%;
+    overflow-y:scroll;
+    scrollbar-base-color:#33cc99;
+}
+.check-detail::-webkit-scrollbar {
+    width: 0px;
+}
+#next-step{
+    width: 250px;
+    height: 41px;
+    border: none;
+    background-color: #33cc99;
+    font-size: 28px;
+    color: white;
+    margin: 40px  auto;
+    display: block;
+}
+.cdiv{
+    display: none;
+}
+.ad-form,.dd-form{
+    display: block;
+    width:400px;
+    margin: 0 auto;
+}
+.t-text{
+    border: none;
+    border-bottom: 2px solid #33cc99;
+    outline:0;
+    font-size: 16px;
+    padding: 3px 7px;
+    width: 230px;
+    background: none;
+}
+.t-zhuce{
+    width: 250px;
+    height: 41px;
+    border: none;
+    background-color: #33cc99;
+    font-size: 28px;
+    color: white;
+    margin: 40px auto;
+    display: block;
+}
+.ad-form td,.dd-form td{
+   padding: 15px 2px;
+    text-align: right;
+}
+.red{
+    color: red;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0
+}
+.footer p{
+    color: #33cc99;
+}

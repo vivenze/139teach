@@ -1,0 +1,365 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Microsoft YaHei";
+}
+@keyframes forthtrans{
+    from{
+        transform: rotate(5deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.head{
+    height: 80px;
+    width: 100%;
+}
+.logo{
+    width: 170px;
+    height: 60px;
+    margin: 10px 0 0 70px;
+    float: left;
+}
+.first{
+    height: 655px;
+    background: url("../imgs/homepagebeijing.png");
+}
+.head ul{
+    display: block;
+    width: 600px;
+    height: 80px;
+    float: left;
+    margin: 0 170px;
+}
+.head li{
+    list-style: none;
+    float: left;
+    margin: 30px 30px;
+}
+.mainli a{
+    color: #33cc99;
+    font-weight: 700;
+}
+.mainli{
+    display: block;
+    height: 27px;
+    border-bottom: 3px solid #33cc99;
+}
+.peoplelogo{
+    width: 20px;
+    height: 20px;
+    margin: 30px 0;
+}
+
+.first a{
+    display: block;
+    width: 156px;
+    height: 58px;
+    border: 3px solid white;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    top:428px;
+    left: 440px;
+}
+.second{
+    height: 768px;
+}
+.secondhead{
+    height: 120px;
+    width: 100%;
+}
+.secondhead img{
+    margin: 50px auto;
+    display: block;
+}
+.teacher1{
+    float: left;
+    width: 250px;
+    height: 500px;
+    border: 1px solid white;
+    margin: 0 30px 60px 30px;
+    box-shadow:0px 0px 30px #f5f1f1;
+}
+.teacher1 img{
+    width: 146px;
+    height: 146px;
+    border-radius: 73px;
+    margin: 50px 0;
+}
+.teacher1 h2{
+   font-size: 20px;
+    color: #33cc99;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.teacher1 h3{
+    font-size: 16px;
+    color: #888888;
+    font-weight: 500;
+    margin: 5px 0;
+}
+.teacher1 p{
+    font-size: 13px;
+    font-weight: 500;
+    width: 160px;
+    margin: 10px auto;
+    color: #b3aeae;
+    text-align: left;
+}
+.teacher1 button{
+    width: 106px;
+    height: 25px;
+    background-color:#c9c9c9;
+    border: none;
+    color: white;
+    font-size: 15px;
+    margin: 15px 0;
+}
+.teacher1 button:hover{
+    background-color: #33cc99;
+    cursor: pointer;
+}
+.third{
+    height: 768px;
+    background: url("../imgs/homepdetail.png");
+}
+.thirdimg{
+    width: 328px;
+    height: 198px;
+}
+.thirdimg img:nth-child(1){
+    position: absolute;
+    z-index: 2;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.thirdimg img:nth-child(2){
+    position: absolute;
+    z-index: 1;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.third p{
+    color: #33cc99;
+    font-size: 35px;
+    font-weight:bold;
+    position:absolute;
+}
+.third span{
+    font-size: 18px;
+    color:#a1a4a3;
+    position:absolute;
+}
+.pright span{
+    color: #f29b76;
+    font-weight: 400;
+    font-size: 35px;
+}
+.third p:nth-child(2){
+    border-top:3px solid #f29b76;
+    padding-top: 10px;
+    width: 35px;
+    left: 120px;
+    line-height: 35px;
+    height: 240px;
+    display: none;
+}
+.third span:nth-child(3){
+    width: 200px;
+    height: 42px;
+    display: block;
+    float: left;
+    left: 180px;
+    margin-top:140px;
+    display: none;
+}
+.third p:nth-child(4){
+    left: 730px;
+    padding-left: 10px;
+    height:46px;
+    width: 0px;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.third span:nth-child(5) {
+    left: 810px;
+    display: block;
+    margin-top: 50px;
+    width: 0px;
+    height: 25px;
+    overflow-x: hidden;
+}
+.third p:nth-child(6){
+    left: 200px;
+    margin-top: 300px;
+    height:46px;
+    width: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.third span:nth-child(7){
+    left: 280px;
+    display: block;
+    margin-top: 350px;
+    width: 0px;
+    height: 25px;
+    overflow-x: hidden;
+}
+.third span:nth-child(8){
+    left: 280px;
+    display: block;
+    margin-top: 375px;
+    width: 0px;
+    height: 25px;
+    overflow-x: hidden;
+}
+.third p:nth-child(9){
+    left: 650px;
+    margin-top: 200px;
+    height:46px;
+    width: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.third p:nth-child(10){
+    left: 780px;
+    margin-top: 246px;
+    height:46px;
+    width: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.third span:nth-child(11){
+    left: 650px;
+    display: block;
+    margin-top: 280px;
+    width: 0px;
+    height: 25px;
+    overflow-x: hidden;
+}
+.third span:nth-child(12){
+    left: 650px;
+    display: block;
+    margin-top: 305px;
+    width: 0px;
+    height: 25px;
+    overflow-x: hidden;
+}
+.third p:nth-child(13){
+    border-top:3px solid #f29b76;
+    padding-top: 10px;
+    width: 35px;
+    left: 1130px;
+    line-height: 35px;
+    height: 300px;
+    display: none;
+    top: 1790px;
+}
+.third span:nth-child(14){
+    width: 35px;
+    height: 300px;
+    display: block;
+    float: left;
+    left: 1170px;
+    margin-top:140px;
+    display: none;
+    top: 1780px;
+    margin-left: 10px;
+    line-height: 18px;
+}
+.third span:nth-child(15){
+    width: 35px;
+    height: 300px;
+    display: block;
+    float: left;
+    left: 1205px;
+    margin-top:140px;
+    display: none;
+    top: 1800px;
+    line-height: 18px;
+}
+.forth{
+    height: 700px;
+}
+.forth h3{
+    font-size: 30px;
+    border-bottom:3px solid #33cc99;
+    width: 150px;
+    color: #33cc99;
+    margin: 50px 0 0 70px;
+}
+.pleadetail{
+    width: 1208px;
+    height: 550px;
+    margin: 0 auto;
+    border-top:1px solid #33cc99;
+    border-right:1px solid #33cc99;
+}
+.plea{
+    margin-top: 160px;
+    width: 161px;
+    height: 161px;
+}
+.pleadetail .plea{
+    float: left;
+}
+.forth5{
+    float: left;
+    margin: 220px 50px 60px 50px;
+
+}
+.plea  h4{
+    width: 140px;
+    font-size: 25px;
+    text-align: center;
+    margin:60px 10px;
+    font-weight: 500;
+    position: absolute;
+    z-index: 2;
+}
+.plea img{
+    position: absolute;
+    z-index: 1;
+    animation: forthtrans 5s ease-in-out infinite;
+}
+.forthp p{
+    float: left;
+    display: block;
+    width: 120px;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 20px;
+    color:#33cc99;
+}
+.forthdiv{
+    width: 81px;
+    height: 20px;
+    float: left;
+    padding: 50px 62px;
+}
+.footer{
+    width: 100%;
+    height: 86px;
+    background-color: #e9fde9;
+}
+.footer p{
+    color:#33cc99;
+    text-align: center;
+    padding: 3px;
+}
+.footer a{
+    color:#33cc99;
+}
